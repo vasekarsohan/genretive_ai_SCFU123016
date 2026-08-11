@@ -1,0 +1,50 @@
+Activity 1: LLM Models on Hugging Face
+Pick 3 models on Hugging Face  - one small, one medium, one Large.
+-----------------------------------------------------------------------------------------------------------
+1. Medium: 
+Model name: Muse-Glimmer-30B-GGUF
+Who created the model? :: unsloth
+
+How many parameters does it have? :: 29.6B
+
+Is it a generative model? :: Yes
+
+What is context length? :: 131,072+
+
+Is the model usefull for local execusion? :: No
+
+What hardware does the model card recommend? :: Target Hardware	64GB VRAM
+
+-----------------------------------------------------------------------------------------------------------
+2 Small: 
+Model name: GPT-X2.5-135M
+
+Who created the model? :: Axiomic Labs
+
+How many parameters does it have? :: 135M
+
+Is it a generative model? :: Yes
+
+What is context length? :: 8,192
+
+Is the model usefull for local execusion? :: Yes
+
+What hardware does the model card recommend?
+NVIDIA RTX 3080 Ti was used for training; local inference can run on much less powerful hardware.
+
+-----------------------------------------------------------------------------------------------------------
+3. Large: 
+Model name: DeepSeek-V4-Flash-0731
+
+Who created the model? :: deepseek-ai
+
+How many parameters does it have? :: 304B
+
+Is it a generative model? :: Yes
+
+What is context length? :: Not mentioned in the model card.
+
+Is the model usefull for local execusion? :: Yes, but it requires high-end hardware.
+
+What hardware does the model card recommend? :: 4× GB300 for the example vLLM setup
+-----------------------------------------------------------------------------------------------------------
